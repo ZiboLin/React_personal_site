@@ -24,8 +24,8 @@ const links = [
     },
     {
         name: 'Hobbies',
-        to: '/photo',
-        active: 'photo'
+        to: '/hobbies',
+        active: 'hobbies'
     }
 ]
 
@@ -40,9 +40,9 @@ export default function Navbar({darkMode, handleClick}) {
                 fontSize={'1rem'}>
                 {links.map((link, index) => (
                     <Box key={index} component={'li'} className={(link.active === active && !link.type) && Style.active}
-                         sx={{borderImageSource: info.gradient}}>
+                         sx={{borderImageSource: info.gradient, paddingTop: '0.5rem'}}>
                         <Link to={link.to} onClick={() => setActive(link.active)}>
-                            {!link.type && <p style={{paddingBottom: '0.5rem'}}>{link.name}</p>}
+                            {!link.type && <p style={{paddingBottom: '0.1rem'}}>{link.name}</p>}
                             {link.type && <h1>{link.name}</h1>}
                         </Link>
                     </Box>

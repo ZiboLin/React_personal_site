@@ -146,24 +146,25 @@ export const info = {
         }
     ],
     fun_things:[
+        //Turns out that the URL to embed a YouTube video is https://www.youtube.com/embed/VIDEO_ID 
         {
             title: "The Big Lap of Australia part 1",
-            YT_link: "https://google.com",
+            YT_link: "https://www.youtube.com/embed/wTivsRBOVoA",
             image: bigLap1
         },
         {
             title: "The Big Lap of Australia part 2",
-            YT_link: "https://google.com",
+            YT_link: "https://www.youtube.com/embed/wTivsRBOVoA",
             image: bigLap2
         },
         {
             title: "Sky Diving",
-            YT_link: "https://google.com",
+            YT_link: "https://www.youtube.com/embed/PBPDfVD0X8o",
             image: skydive
         },
         {
             title: "Trip to Tibet",
-            YT_link:"https://google.com",
+            YT_link:"https://www.youtube.com/embed/PBPDfVD0X8o",
             image:tibet
         }
     ]
