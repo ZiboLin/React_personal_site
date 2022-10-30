@@ -1,7 +1,4 @@
 #w
 
-- add top space in NavBar 
-
-
-
-- In page video streaming 
+Add some projects and videos 
+Waiting to deploy 
